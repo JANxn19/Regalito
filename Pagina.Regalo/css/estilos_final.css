@@ -1,0 +1,32 @@
+/* Estilos para la página de contenido secreto */
+body {
+    background-image: url('fotoportada5.png'); /* Reemplaza 'fondo_contenido_secreto.jpg' con la ruta de tu imagen de fondo personalizada */
+    background-size: cover; /* La imagen se ajustará al tamaño del contenedor y se recortará si es necesario */
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #fff; /* Cambia el color del texto a blanco o el que desees */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Agrega sombra al texto */
+}
+
+p {
+    font-size: 18px;
+    color: #fff; /* Cambia el color del texto a blanco o el que desees */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Agrega sombra al texto */
+}
